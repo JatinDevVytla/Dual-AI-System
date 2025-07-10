@@ -1,0 +1,8 @@
+fastapi~=0.115.13
+uvicorn
+requests~=2.32.4
+openai~=1.88.0
+python-dotenv       # For loading API keys from .env files
+pydantic~=2.11.7
+
+streamlit~=1.46.0
