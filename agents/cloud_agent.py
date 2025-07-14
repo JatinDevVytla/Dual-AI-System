@@ -6,7 +6,7 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 def cloud_response(user_input: str) -> str:
     try:
         response = client.chat.completions.create(
-            model="gpt-4o",  # Recommended: use "gpt-4o" (latest and best)
+            model="gpt-4o",
             messages=[
                 {"role": "system", "content": "You are a helpful AI assistant."},
                 {"role": "user", "content": user_input}
